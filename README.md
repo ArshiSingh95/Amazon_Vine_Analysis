@@ -10,9 +10,12 @@
 #### Results/Summary
 
 The first step was to extract the data from S3. After, creating the tables in SQL we load this data into SQL. An example of the data loaded into PostgreSQL is shown below.
+
 ![](resources/sql.png)
 
 After recreating the vine table and transforming the dateframes, the results indicated there is a bias towards 5 star ratings for those who did pay. 
+
+![](resources/d2.png)
 
 Vine Paid Count : **94**
 Vine Paid with 5 Star review Count: **48**
